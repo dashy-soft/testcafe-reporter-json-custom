@@ -1,8 +1,8 @@
 {
-  "name": "testcafe-reporter-json2",
+  "name": "testcafe-reporter-json-custom",
   "version": "1.0.0",
   "description": "json-custom TestCafe reporter plugin.",
-  "repository": "https://github.com/gwenaelp/testcafe-reporter-json-custom",
+  "repository": "https://github.com/dashy-soft/testcafe-reporter-json-custom",
   "author": {
     "name": "Gwenael Pluchon",
     "email": "accounts@gwenp.fr"
