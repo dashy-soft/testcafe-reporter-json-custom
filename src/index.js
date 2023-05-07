@@ -62,7 +62,10 @@ module.exports = function (source, arg2) {
             this.report.passed   = passed;
             this.report.endTime  = endTime;
             this.report.warnings = warnings;
-
+            if (gitInfo) {
+                this.report.commit = gitInfo.commit.id;
+                this.report.branch = gitInfo.branch;
+            }
             this.write(JSON.stringify(this.report, null, 2));
         }
     };
